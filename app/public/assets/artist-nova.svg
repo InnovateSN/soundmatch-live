@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+<defs>
+<radialGradient id="g" cx="50%" cy="34%" r="65%"><stop offset="0" stop-color="#ff174f"/><stop offset=".18" stop-color="#380611"/><stop offset="1" stop-color="#050506"/></radialGradient>
+<filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".75" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .18"/></feComponentTransfer></filter>
+<linearGradient id="laser" x1="0" x2="1"><stop stop-color="#ccff00" stop-opacity="0"/><stop offset=".5" stop-color="#ccff00"/><stop offset="1" stop-color="#ccff00" stop-opacity="0"/></linearGradient>
+</defs>
+<rect width="1200" height="800" fill="url(#g)"/>
+<rect width="1200" height="800" filter="url(#grain)" opacity=".8"/>
+<g opacity=".45" stroke="#ffffff" stroke-width="2"><path d="M0 640 C210 570 380 590 600 520 C800 460 930 440 1200 330"/><path d="M0 690 C260 620 420 640 690 550 C890 485 1000 460 1200 390"/></g>
+<g opacity=".9"><circle cx="605" cy="295" r="92" fill="#ff174f"/><circle cx="605" cy="295" r="200" fill="#ff174f" opacity=".22"/><circle cx="605" cy="295" r="315" fill="#ff174f" opacity=".08"/></g>
+<g transform="translate(65 650)" fill="#ccff00"> <rect width="12" height="42"/><rect x="22" y="-25" width="12" height="67"/><rect x="44" y="-5" width="12" height="47"/><rect x="66" y="-70" width="12" height="112"/><rect x="88" y="-35" width="12" height="77"/><rect x="110" y="-95" width="12" height="137"/><rect x="132" y="-20" width="12" height="62"/><rect x="154" y="-120" width="12" height="162"/><rect x="176" y="-60" width="12" height="102"/><rect x="198" y="-145" width="12" height="187"/><rect x="220" y="-80" width="12" height="122"/><rect x="242" y="-165" width="12" height="207"/><rect x="264" y="-55" width="12" height="97"/><rect x="286" y="-130" width="12" height="172"/><rect x="308" y="-40" width="12" height="82"/><rect x="330" y="-115" width="12" height="157"/></g>
+<rect x="0" y="0" width="1200" height="800" fill="none" stroke="#ccff00" stroke-width="6" opacity=".18"/>
+<text x="60" y="92" fill="#ccff00" font-size="32" font-family="Arial Black,Arial" letter-spacing="8">LIVE SIGNAL</text>
+</svg>
