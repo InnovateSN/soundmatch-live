@@ -1,4 +1,4 @@
-import React,{useEffect,useRef,useState}from'react';
+import React,{useEffect,useRef,useState}from'react';import'./map.css';
 
 const cities=[
   {label:'London',coords:[51.5074,-0.1278],zoom:13},
